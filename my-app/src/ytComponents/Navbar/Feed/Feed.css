@@ -1,0 +1,43 @@
+/* Feed.css */
+
+.feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px 30px; /* Combines column and row gaps */
+  margin-top: 70px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card h2,
+.card h3,
+.card p {
+  padding: 10px;
+  margin: 0;
+}
+
+.card h2 {
+  font-size: 18px;
+}
+
+.card h3 {
+  color: #666;
+  font-size: 16px;
+}
+
+.card p {
+  color: #999;
+  font-size: 14px;
+}
+ 

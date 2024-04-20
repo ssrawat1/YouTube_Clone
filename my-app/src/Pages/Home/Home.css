@@ -1,0 +1,15 @@
+.container {
+  background-color: #f9f9f9;
+  padding: 15px 2% 15px 11%;
+}
+.large-container {
+  padding-left: 5.5%;
+}
+
+@media (max-width: 900px) {
+  .large-container,
+  .container {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}

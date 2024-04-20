@@ -1,0 +1,84 @@
+.nav-container {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid silver;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  background-color: aliceblue;
+}
+.nav-left {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu-icon {
+  height: 20px;
+}
+.logo-icon {
+  height: 25px;
+}
+.nav-middle {
+  display: flex;
+  height: 35px;
+  border-radius: 25px;
+  align-items: center;
+  border: 1px solid navy;
+}
+.input-box {
+  height: 30px;
+  border-style: none;
+  border-radius: 25px;
+  padding: 0 20px 0 20px;
+  margin: 5px;
+  outline: none;
+  background-color: aliceblue;
+}
+.search-icon {
+  height: 20px;
+  padding: 0 20px 0 20px;
+  margin-right: 5px;
+}
+
+.nav-right {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.upload-icon {
+  height: 30px;
+}
+.more-icon {
+  height: 30px;
+}
+.notification-icon {
+  height: 30px;
+}
+.profile-icon {
+  height: 30px;
+  border-radius: 50%;
+}
+
+@media (max-width: 900px) {
+  .menu-icon {
+    display: none;
+  }
+  .nav-right img {
+    display: none;
+  }
+  .nav-right .profile-icon {
+    display: block;
+  }
+  .logo-icon {
+    width: 80px;
+  }
+  .nav-middle .input-box {
+    width: 90px;
+  }
+}
+
